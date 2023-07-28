@@ -1,0 +1,8 @@
+{
+    "title": "Delivery-app",
+    "identifier": "com.razvancrisan.Deliveryapp",
+    "orientation": "auto",
+    "versioncode": 1,
+    "versionname": "1.0.0",
+    "stage": "test"
+}
