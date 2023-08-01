@@ -1,0 +1,342 @@
+[
+  {
+    "id": 1,
+    "name": "Tasty Burgers",
+    "categories": ["Burgers", "Fast Food"],
+    "imageSource": "../../assets/place_logos/place_logo_001.jpg",
+    "freeDelivery": false,
+    "minOrder": 15.00,
+    "deliveryFee": 2.50,
+    "deliveryTime": 30,
+    "isOpen": true,
+    "menu": [
+      {
+        "id": 1,
+        "title": "Cheeseburger",
+        "ingredients": "Beef patty, cheddar cheese, lettuce, tomato, pickles, onions, ketchup, mustard",
+        "price": 10.99,
+        "categories": ["Burgers", "Main Course"]
+      },
+      {
+        "id": 3,
+        "title": "Caesar Salad",
+        "ingredients": "Romaine lettuce, croutons, parmesan cheese, Caesar dressing",
+        "price": 8.95,
+        "categories": ["Salads", "Appetizers"]
+      },
+      {
+        "id": 6,
+        "title": "French Fries",
+        "ingredients": "Potatoes, salt, vegetable oil",
+        "price": 4.50,
+        "categories": ["Sides", "Appetizers"]
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Pizza Delight",
+    "categories": ["Pizza", "Italian"],
+    "imageSource": "../../assets/place_logos/place_logo_002.jpg",
+    "freeDelivery": true,
+    "minOrder": 20.00,
+    "deliveryFee": "FREE",
+    "deliveryTime": 45,
+    "isOpen": true,
+    "menu": [
+      {
+        "id": 2,
+        "title": "Margherita Pizza",
+        "ingredients": "Tomato sauce, mozzarella cheese, fresh basil, olive oil",
+        "price": 12.50,
+        "categories": ["Pizza", "Main Course"]
+      },
+      {
+        "id": 7,
+        "title": "Pepperoni Pizza",
+        "ingredients": "Tomato sauce, mozzarella cheese, pepperoni",
+        "price": 13.95,
+        "categories": ["Pizza", "Main Course"]
+      },
+      {
+        "id": 8,
+        "title": "Garlic Breadsticks",
+        "ingredients": "Dough, garlic butter",
+        "price": 6.25,
+        "categories": ["Sides", "Appetizers"]
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Fisherman's Catch",
+    "categories": ["Seafood", "Seafood Grill"],
+    "imageSource": "../../assets/place_logos/place_logo_003.jpg",
+    "freeDelivery": false,
+    "minOrder": 25.00,
+    "deliveryFee": 3.00,
+    "deliveryTime": 60,
+    "isOpen": true,
+    "menu": [
+      {
+        "id": 4,
+        "title": "Grilled Salmon",
+        "ingredients": "Fresh salmon fillet, lemon, dill, olive oil",
+        "price": 16.75,
+        "categories": ["Seafood", "Main Course"]
+      },
+      {
+        "id": 9,
+        "title": "Fish and Chips",
+        "ingredients": "Cod fillets, French fries",
+        "price": 14.50,
+        "categories": ["Seafood", "Main Course"]
+      },
+      {
+        "id": 10,
+        "title": "Clam Chowder",
+        "ingredients": "Clams, potatoes, onions, cream",
+        "price": 9.95,
+        "categories": ["Soups", "Appetizers"]
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Mexican Spice",
+    "categories": ["Mexican", "Spicy"],
+    "imageSource": "../../assets/place_logos/place_logo_004.jpg",
+    "freeDelivery": true,
+    "minOrder": 18.00,
+    "deliveryFee": "FREE",
+    "deliveryTime": 40,
+    "isOpen": false,
+    "menu": [
+      {
+        "id": 11,
+        "title": "Burrito",
+        "ingredients": "Flour tortilla, rice, black beans, grilled chicken, salsa, guacamole",
+        "price": 9.99,
+        "categories": ["Burritos", "Main Course"]
+      },
+      {
+        "id": 12,
+        "title": "Taco",
+        "ingredients": "Corn tortilla, seasoned beef, lettuce, cheese, salsa",
+        "price": 3.50,
+        "categories": ["Tacos", "Appetizers"]
+      },
+      {
+        "id": 13,
+        "title": "Quesadilla",
+        "ingredients": "Flour tortilla, cheese, grilled vegetables",
+        "price": 7.95,
+        "categories": ["Quesadillas", "Appetizers"]
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Sushi Zen",
+    "categories": ["Japanese", "Sushi"],
+    "imageSource": "../../assets/place_logos/place_logo_005.jpg",
+    "freeDelivery": true,
+    "minOrder": 22.00,
+    "deliveryFee": "FREE",
+    "deliveryTime": 50,
+    "isOpen": true,
+    "menu": [
+      {
+        "id": 14,
+        "title": "California Roll",
+        "ingredients": "Sushi rice, imitation crab, avocado, cucumber",
+        "price": 11.95,
+        "categories": ["Sushi Rolls", "Main Course"]
+      },
+      {
+        "id": 15,
+        "title": "Salmon Nigiri",
+        "ingredients": "Fresh salmon slice, sushi rice",
+        "price": 5.50,
+        "categories": ["Nigiri", "Appetizers"]
+      },
+      {
+        "id": 16,
+        "title": "Miso Soup",
+        "ingredients": "Soybean paste, tofu, seaweed, green onions",
+        "price": 3.25,
+        "categories": ["Soups", "Appetizers"]
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Indian Delights",
+    "categories": ["Indian", "Spicy"],
+    "imageSource": "../../assets/place_logos/place_logo_006.jpg",
+    "freeDelivery": false,
+    "minOrder": 20.00,
+    "deliveryFee": 2.50,
+    "deliveryTime": 45,
+    "isOpen": true,
+    "menu": [
+      {
+        "id": 17,
+        "title": "Butter Chicken",
+        "ingredients": "Chicken, tomato sauce, cream, butter, spices",
+        "price": 13.99,
+        "categories": ["Curries", "Main Course"]
+      },
+      {
+        "id": 18,
+        "title": "Vegetable Biryani",
+        "ingredients": "Basmati rice, mixed vegetables, spices",
+        "price": 11.50,
+        "categories": ["Rice Dishes", "Main Course"]
+      },
+      {
+        "id": 19,
+        "title": "Garlic Naan",
+        "ingredients": "White flour, garlic, butter",
+        "price": 4.75,
+        "categories": ["Breads", "Appetizers"]
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Mama's Pasta",
+    "categories": ["Italian", "Pasta"],
+    "imageSource": "../../assets/place_logos/place_logo_007.jpg",
+    "freeDelivery": true,
+    "minOrder": 18.00,
+    "deliveryFee": "FREE",
+    "deliveryTime": 35,
+    "isOpen": true,
+    "menu": [
+      {
+        "id": 20,
+        "title": "Spaghetti Carbonara",
+        "ingredients": "Spaghetti, eggs, pancetta, parmesan cheese, black pepper",
+        "price": 13.25,
+        "categories": ["Pasta", "Main Course"]
+      },
+      {
+        "id": 21,
+        "title": "Margherita Pizza",
+        "ingredients": "Tomato sauce, mozzarella cheese, fresh basil, olive oil",
+        "price": 11.50,
+        "categories": ["Pizza", "Main Course"]
+      },
+      {
+        "id": 22,
+        "title": "Caprese Salad",
+        "ingredients": "Tomatoes, mozzarella cheese, fresh basil, balsamic glaze",
+        "price": 9.95,
+        "categories": ["Salads", "Appetizers"]
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "name": "BBQ Heaven",
+    "categories": ["Barbecue", "Grill"],
+    "imageSource": "../../assets/place_logos/place_logo_008.jpg",
+    "freeDelivery": false,
+    "minOrder": 25.00,
+    "deliveryFee": 3.50,
+    "deliveryTime": 50,
+    "isOpen": true,
+    "menu": [
+      {
+        "id": 23,
+        "title": "Smoked Ribs",
+        "ingredients": "Pork ribs, BBQ sauce, spices",
+        "price": 17.99,
+        "categories": ["BBQ", "Main Course"]
+      },
+      {
+        "id": 24,
+        "title": "Grilled Chicken",
+        "ingredients": "Chicken breast, BBQ glaze, herbs",
+        "price": 14.50,
+        "categories": ["Grilled Chicken", "Main Course"]
+      },
+      {
+        "id": 25,
+        "title": "Cornbread",
+        "ingredients": "Cornmeal, butter, sugar",
+        "price": 5.25,
+        "categories": ["Sides", "Appetizers"]
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Vegetarian Delights",
+    "categories": ["Vegetarian", "Healthy"],
+    "imageSource": "../../assets/place_logos/place_logo_009.jpg",
+    "freeDelivery": true,
+    "minOrder": 20.00,
+    "deliveryFee": "FREE",
+    "deliveryTime": 40,
+    "isOpen": true,
+    "menu": [
+      {
+        "id": 26,
+        "title": "Quinoa Salad",
+        "ingredients": "Quinoa, mixed vegetables, lemon vinaigrette",
+        "price": 10.99,
+        "categories": ["Salads", "Main Course"]
+      },
+      {
+        "id": 27,
+        "title": "Stuffed Bell Peppers",
+        "ingredients": "Bell peppers, rice, black beans, cheese",
+        "price": 9.50,
+        "categories": ["Main Course"]
+      },
+      {
+        "id": 28,
+        "title": "Avocado Toast",
+        "ingredients": "Whole-grain bread, avocado, cherry tomatoes",
+        "price": 7.25,
+        "categories": ["Breakfast", "Appetizers"]
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "name": "The Cozy Cafe",
+    "categories": ["Cafe", "Breakfast"],
+    "imageSource": "../../assets/place_logos/place_logo_010.jpg",
+    "freeDelivery": true,
+    "minOrder": 12.00,
+    "deliveryFee": "FREE",
+    "deliveryTime": 25,
+    "isOpen": true,
+    "menu": [
+      {
+        "id": 29,
+        "title": "Pancakes",
+        "ingredients": "Buttermilk pancakes, maple syrup",
+        "price": 7.99,
+        "categories": ["Breakfast", "Main Course"]
+      },
+      {
+        "id": 30,
+        "title": "Eggs Benedict",
+        "ingredients": "English muffin, poached eggs, Canadian bacon, hollandaise sauce",
+        "price": 10.50,
+        "categories": ["Breakfast", "Main Course"]
+      },
+      {
+        "id": 31,
+        "title": "Cappuccino",
+        "ingredients": "Espresso, steamed milk, froth",
+        "price": 4.25,
+        "categories": ["Beverages"]
+      }
+    ]
+  }
+]

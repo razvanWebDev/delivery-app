@@ -18,7 +18,7 @@ Item {
         }
         AppText {
             text: root.iconText
-            fontSize: dp(7)
+            fontSize: sp(7)
             anchors.horizontalCenter: parent.horizontalCenter
         }
 

@@ -48,7 +48,6 @@ Item {
             text: root.btnText
             width: parent.width
             wrapMode: Text.WrapAtWordBoundaryOrAnywhere
-            //fontSize: dp(8)
             horizontalAlignment: Text.AlignHCenter
             color: root.isSelected ? Theme.colors.secondaryTextColor : Theme.colors.backgroundColor
         }
