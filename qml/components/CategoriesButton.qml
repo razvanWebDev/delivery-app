@@ -7,9 +7,9 @@ Item {
     width: dp(65)
     height: contentCol.height
 
-    property bool isSelected: false
     property url iconSource
     property string btnText
+    property bool isSelected: false
 
     signal clicked()
 

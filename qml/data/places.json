@@ -178,7 +178,7 @@
     "minOrder": 20.00,
     "deliveryFee": 2.50,
     "deliveryTime": 45,
-    "isOpen": true,
+    "isOpen": false,
     "menu": [
       {
         "id": 17,
@@ -212,7 +212,7 @@
     "minOrder": 18.00,
     "deliveryFee": "FREE",
     "deliveryTime": 35,
-    "isOpen": true,
+    "isOpen": false,
     "menu": [
       {
         "id": 20,

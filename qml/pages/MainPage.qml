@@ -7,16 +7,25 @@ AppPage {
 
     title: qsTr("Delivery App")
     useSafeArea: false
+
     property string currentBtnText: qsTr("All Food")
 
     clip: true
+
+    Component.onCompleted: {
+        console.debug("Component.onCompleted")
+        logic.getALlLocations()
+    }
+
+    Connections {
+        target: dataModel
+    }
 
     JsonListModel {
         id: listModel
         source: dataModel.placesModel
         fields: ["id", "name", "imageSource", "freeDelivery", "minOrder", "deliveryFee", "deliveryTime", "isOpen"]
     }
-
 
     AppFlickable {
         id: mainFlickable
@@ -59,7 +68,7 @@ AppPage {
                 leftPadding: dp(15)
                 rightPadding: dp(20)
                 onTextChanged: {
-                    //Filter by name
+                    logic.filterLocationsByName(text)
                 }
             }
 
@@ -72,7 +81,6 @@ AppPage {
                 color: Theme.colors.secondaryTextColor
             }
 
-
             Row {
                 width: parent.width
                 spacing: (width - dp(260))/3
@@ -80,33 +88,37 @@ AppPage {
                 CategoriesButton {
                     iconSource: Qt.resolvedUrl("../../assets/menu.png")
                     btnText: qsTr("All Food")
-                    isSelected: btnText == currentBtnText
+                    isSelected:  currentBtnText == btnText
                     onClicked: {
-                        logic.filterLocationsByCatgory(btnText)
+                        currentBtnText = btnText
+                        logic.getALlLocations()
                     }
                 }
                 CategoriesButton {
                     iconSource: Qt.resolvedUrl("../../assets/pizza.png")
                     btnText: qsTr("Pizza")
-                    isSelected: btnText == currentBtnText
+                    isSelected:  currentBtnText == btnText
                     onClicked: {
-                        logic.filterLocationsByCatgories(btnText)
+                        currentBtnText = btnText
+                        logic.filterLocationsByCatgory(btnText)
                     }
                 }
                 CategoriesButton {
                     iconSource: Qt.resolvedUrl("../../assets/hamburger.png")
                     btnText: qsTr("Burgers")
-                    isSelected: btnText == currentBtnText
+                    isSelected:  currentBtnText == btnText
                     onClicked: {
-                        logic.filterLocationsByCatgories(btnText)
+                        currentBtnText = btnText
+                        logic.filterLocationsByCatgory(btnText)
                     }
                 }
                 CategoriesButton {
                     iconSource: Qt.resolvedUrl("../../assets/fish.png")
                     btnText: qsTr("Fish")
-                    isSelected: btnText == currentBtnText
+                    isSelected:  currentBtnText == btnText
                     onClicked: {
-                        logic.filterLocationsByCatgories(btnText)
+                        currentBtnText = btnText
+                        logic.filterLocationsByCatgory(btnText)
                     }
                 }
 
@@ -211,13 +223,5 @@ AppPage {
                 }
             }
         }
-    }
-
-    Connections {
-        target: dataModel
-    }
-
-    Component.onCompleted: {
-        logic.getALlLocations()
     }
 }
