@@ -3,7 +3,7 @@
     "id": 1,
     "name": "Tasty Burgers",
     "categories": ["Burgers", "Fast Food"],
-    "imageSource": "../../assets/place_logos/place_logo_001.jpg",
+    "imageSource": "../../assets/place_logos/place_logo_003.jpg",
     "freeDelivery": false,
     "minOrder": 15.00,
     "deliveryFee": 2.50,
@@ -15,21 +15,54 @@
         "title": "Cheeseburger",
         "ingredients": "Beef patty, cheddar cheese, lettuce, tomato, pickles, onions, ketchup, mustard",
         "price": 10.99,
-        "categories": ["Burgers", "Main Course"]
+        "categories": ["Burgers", "Main Course"],
+        "imageSource": "../../assets/menu_images/cheeseburger.jpg",
+        "portionSize": "250g"
       },
       {
         "id": 3,
         "title": "Caesar Salad",
         "ingredients": "Romaine lettuce, croutons, parmesan cheese, Caesar dressing",
         "price": 8.95,
-        "categories": ["Salads", "Appetizers"]
+        "categories": ["Salads", "Appetizers"],
+        "imageSource": "../../assets/menu_images/caesar_salad.jpg",
+        "portionSize": "200g"
       },
       {
         "id": 6,
         "title": "French Fries",
         "ingredients": "Potatoes, salt, vegetable oil",
         "price": 4.50,
-        "categories": ["Sides", "Appetizers"]
+        "categories": ["Sides", "Appetizers"],
+        "imageSource": "../../assets/menu_images/french_fries.jpg",
+        "portionSize": "150g"
+      },
+      {
+        "id": 26,
+        "title": "Quinoa Salad",
+        "ingredients": "Quinoa, mixed vegetables, lemon vinaigrette",
+        "price": 10.99,
+        "categories": ["Salads", "Main Course"],
+        "imageSource": "../../assets/menu_images/quinoa_salad.jpg",
+        "portionSize": "300g"
+      },
+      {
+        "id": 27,
+        "title": "Stuffed Bell Peppers",
+        "ingredients": "Bell peppers, rice, black beans, cheese",
+        "price": 9.50,
+        "categories": ["Main Course"],
+        "imageSource": "../../assets/menu_images/stuffed_bell_peppers.jpg",
+        "portionSize": "350g"
+      },
+      {
+        "id": 28,
+        "title": "Avocado Toast",
+        "ingredients": "Whole-grain bread, avocado, cherry tomatoes",
+        "price": 7.25,
+        "categories": ["Breakfast", "Appetizers"],
+        "imageSource": "../../assets/menu_images/avocado_toast.jpg",
+        "portionSize": "200g"
       }
     ]
   },
@@ -37,10 +70,10 @@
     "id": 2,
     "name": "Pizza Delight",
     "categories": ["Pizza", "Italian"],
-    "imageSource": "../../assets/place_logos/place_logo_002.jpg",
+    "imageSource": "../../assets/place_logos/place_logo_003.jpg",
     "freeDelivery": true,
     "minOrder": 20.00,
-    "deliveryFee": "FREE",
+    "deliveryFee": 1.50,
     "deliveryTime": 45,
     "isOpen": true,
     "menu": [
@@ -49,21 +82,27 @@
         "title": "Margherita Pizza",
         "ingredients": "Tomato sauce, mozzarella cheese, fresh basil, olive oil",
         "price": 12.50,
-        "categories": ["Pizza", "Main Course"]
+        "categories": ["Pizza", "Main Course"],
+        "imageSource": "../../assets/menu_images/margherita_pizza.jpg",
+        "portionSize": "400g"
       },
       {
         "id": 7,
         "title": "Pepperoni Pizza",
         "ingredients": "Tomato sauce, mozzarella cheese, pepperoni",
         "price": 13.95,
-        "categories": ["Pizza", "Main Course"]
+        "categories": ["Pizza", "Main Course"],
+        "imageSource": "../../assets/menu_images/pepperoni_pizza.jpg",
+        "portionSize": "450g"
       },
       {
         "id": 8,
         "title": "Garlic Breadsticks",
         "ingredients": "Dough, garlic butter",
         "price": 6.25,
-        "categories": ["Sides", "Appetizers"]
+        "categories": ["Sides", "Appetizers"],
+        "imageSource": "../../assets/menu_images/garlic_breadsticks.jpg",
+        "portionSize": "200g"
       }
     ]
   },
@@ -83,21 +122,54 @@
         "title": "Grilled Salmon",
         "ingredients": "Fresh salmon fillet, lemon, dill, olive oil",
         "price": 16.75,
-        "categories": ["Seafood", "Main Course"]
+        "categories": ["Seafood", "Main Course"],
+        "imageSource": "../../assets/menu_images/grilled_salmon.jpg",
+        "portionSize": "300g"
       },
       {
         "id": 9,
         "title": "Fish and Chips",
         "ingredients": "Cod fillets, French fries",
         "price": 14.50,
-        "categories": ["Seafood", "Main Course"]
+        "categories": ["Seafood", "Main Course"],
+        "imageSource": "../../assets/menu_images/fish_and_chips.jpg",
+        "portionSize": "400g"
       },
       {
         "id": 10,
         "title": "Clam Chowder",
         "ingredients": "Clams, potatoes, onions, cream",
         "price": 9.95,
-        "categories": ["Soups", "Appetizers"]
+        "categories": ["Soups", "Appetizers"],
+        "imageSource": "../../assets/menu_images/clam_chowder.jpg",
+        "portionSize": "250g"
+      },
+      {
+        "id": 26,
+        "title": "Quinoa Salad",
+        "ingredients": "Quinoa, mixed vegetables, lemon vinaigrette",
+        "price": 10.99,
+        "categories": ["Salads", "Main Course"],
+        "imageSource": "../../assets/menu_images/quinoa_salad.jpg",
+        "portionSize": "300g"
+      },
+      {
+        "id": 27,
+        "title": "Stuffed Bell Peppers",
+        "ingredients": "Bell peppers, rice, black beans, cheese",
+        "price": 9.50,
+        "categories": ["Main Course"],
+        "imageSource": "../../assets/menu_images/stuffed_bell_peppers.jpg",
+        "portionSize": "350g"
+      },
+      {
+        "id": 28,
+        "title": "Avocado Toast",
+        "ingredients": "Whole-grain bread, avocado, cherry tomatoes",
+        "price": 7.25,
+        "categories": ["Breakfast", "Appetizers"],
+        "imageSource": "../../assets/menu_images/avocado_toast.jpg",
+        "portionSize": "200g"
       }
     ]
   },
@@ -108,7 +180,7 @@
     "imageSource": "../../assets/place_logos/place_logo_004.jpg",
     "freeDelivery": true,
     "minOrder": 18.00,
-    "deliveryFee": "FREE",
+    "deliveryFee": 1.00,
     "deliveryTime": 40,
     "isOpen": false,
     "menu": [
@@ -117,21 +189,27 @@
         "title": "Burrito",
         "ingredients": "Flour tortilla, rice, black beans, grilled chicken, salsa, guacamole",
         "price": 9.99,
-        "categories": ["Burritos", "Main Course"]
+        "categories": ["Burritos", "Main Course"],
+        "imageSource": "../../assets/menu_images/burrito.jpg",
+        "portionSize": "350g"
       },
       {
         "id": 12,
         "title": "Taco",
         "ingredients": "Corn tortilla, seasoned beef, lettuce, cheese, salsa",
         "price": 3.50,
-        "categories": ["Tacos", "Appetizers"]
+        "categories": ["Tacos", "Appetizers"],
+        "imageSource": "../../assets/menu_images/taco.jpg",
+        "portionSize": "100g"
       },
       {
         "id": 13,
         "title": "Quesadilla",
         "ingredients": "Flour tortilla, cheese, grilled vegetables",
         "price": 7.95,
-        "categories": ["Quesadillas", "Appetizers"]
+        "categories": ["Quesadillas", "Appetizers"],
+        "imageSource": "../../assets/menu_images/quesadilla.jpg",
+        "portionSize": "200g"
       }
     ]
   },
@@ -142,7 +220,7 @@
     "imageSource": "../../assets/place_logos/place_logo_005.jpg",
     "freeDelivery": true,
     "minOrder": 22.00,
-    "deliveryFee": "FREE",
+    "deliveryFee": 2.00,
     "deliveryTime": 50,
     "isOpen": true,
     "menu": [
@@ -151,21 +229,27 @@
         "title": "California Roll",
         "ingredients": "Sushi rice, imitation crab, avocado, cucumber",
         "price": 11.95,
-        "categories": ["Sushi Rolls", "Main Course"]
+        "categories": ["Sushi Rolls", "Main Course"],
+        "imageSource": "../../assets/menu_images/california_roll.jpg",
+        "portionSize": "300g"
       },
       {
         "id": 15,
         "title": "Salmon Nigiri",
         "ingredients": "Fresh salmon slice, sushi rice",
         "price": 5.50,
-        "categories": ["Nigiri", "Appetizers"]
+        "categories": ["Nigiri", "Appetizers"],
+        "imageSource": "../../assets/menu_images/salmon_nigiri.jpg",
+        "portionSize": "50g"
       },
       {
         "id": 16,
         "title": "Miso Soup",
         "ingredients": "Soybean paste, tofu, seaweed, green onions",
         "price": 3.25,
-        "categories": ["Soups", "Appetizers"]
+        "categories": ["Soups", "Appetizers"],
+        "imageSource": "../../assets/menu_images/miso_soup.jpg",
+        "portionSize": "200g"
       }
     ]
   },
@@ -178,28 +262,34 @@
     "minOrder": 20.00,
     "deliveryFee": 2.50,
     "deliveryTime": 45,
-    "isOpen": false,
+    "isOpen": true,
     "menu": [
       {
         "id": 17,
         "title": "Butter Chicken",
         "ingredients": "Chicken, tomato sauce, cream, butter, spices",
         "price": 13.99,
-        "categories": ["Curries", "Main Course"]
+        "categories": ["Curries", "Main Course"],
+        "imageSource": "../../assets/menu_images/butter_chicken.jpg",
+        "portionSize": "300g"
       },
       {
         "id": 18,
         "title": "Vegetable Biryani",
         "ingredients": "Basmati rice, mixed vegetables, spices",
         "price": 11.50,
-        "categories": ["Rice Dishes", "Main Course"]
+        "categories": ["Rice Dishes", "Main Course"],
+        "imageSource": "../../assets/menu_images/vegetable_biryani.jpg",
+        "portionSize": "400g"
       },
       {
         "id": 19,
         "title": "Garlic Naan",
         "ingredients": "White flour, garlic, butter",
         "price": 4.75,
-        "categories": ["Breads", "Appetizers"]
+        "categories": ["Breads", "Appetizers"],
+        "imageSource": "../../assets/menu_images/garlic_naan.jpg",
+        "portionSize": "200g"
       }
     ]
   },
@@ -210,30 +300,90 @@
     "imageSource": "../../assets/place_logos/place_logo_007.jpg",
     "freeDelivery": true,
     "minOrder": 18.00,
-    "deliveryFee": "FREE",
+    "deliveryFee": 1.00,
     "deliveryTime": 35,
-    "isOpen": false,
+    "isOpen": true,
     "menu": [
       {
         "id": 20,
         "title": "Spaghetti Carbonara",
         "ingredients": "Spaghetti, eggs, pancetta, parmesan cheese, black pepper",
         "price": 13.25,
-        "categories": ["Pasta", "Main Course"]
+        "categories": ["Pasta", "Main Course"],
+        "imageSource": "../../assets/menu_images/spaghetti_carbonara.jpg",
+        "portionSize": "350g"
       },
       {
         "id": 21,
         "title": "Margherita Pizza",
         "ingredients": "Tomato sauce, mozzarella cheese, fresh basil, olive oil",
         "price": 11.50,
-        "categories": ["Pizza", "Main Course"]
+        "categories": ["Pizza", "Main Course"],
+        "imageSource": "../../assets/menu_images/margherita_pizza.jpg",
+        "portionSize": "400g"
       },
       {
         "id": 22,
         "title": "Caprese Salad",
         "ingredients": "Tomatoes, mozzarella cheese, fresh basil, balsamic glaze",
         "price": 9.95,
-        "categories": ["Salads", "Appetizers"]
+        "categories": ["Salads", "Appetizers"],
+        "imageSource": "../../assets/menu_images/caprese_salad.jpg",
+        "portionSize": "200g"
+      },
+      {
+        "id": 26,
+        "title": "Quinoa Salad",
+        "ingredients": "Quinoa, mixed vegetables, lemon vinaigrette",
+        "price": 10.99,
+        "categories": ["Salads", "Main Course"],
+        "imageSource": "../../assets/menu_images/quinoa_salad.jpg",
+        "portionSize": "300g"
+      },
+      {
+        "id": 27,
+        "title": "Stuffed Bell Peppers",
+        "ingredients": "Bell peppers, rice, black beans, cheese",
+        "price": 9.50,
+        "categories": ["Main Course"],
+        "imageSource": "../../assets/menu_images/stuffed_bell_peppers.jpg",
+        "portionSize": "350g"
+      },
+      {
+        "id": 28,
+        "title": "Avocado Toast",
+        "ingredients": "Whole-grain bread, avocado, cherry tomatoes",
+        "price": 7.25,
+        "categories": ["Breakfast", "Appetizers"],
+        "imageSource": "../../assets/menu_images/avocado_toast.jpg",
+        "portionSize": "200g"
+      },
+      {
+        "id": 17,
+        "title": "Butter Chicken",
+        "ingredients": "Chicken, tomato sauce, cream, butter, spices",
+        "price": 13.99,
+        "categories": ["Curries", "Main Course"],
+        "imageSource": "../../assets/menu_images/butter_chicken.jpg",
+        "portionSize": "300g"
+      },
+      {
+        "id": 18,
+        "title": "Vegetable Biryani",
+        "ingredients": "Basmati rice, mixed vegetables, spices",
+        "price": 11.50,
+        "categories": ["Rice Dishes", "Main Course"],
+        "imageSource": "../../assets/menu_images/vegetable_biryani.jpg",
+        "portionSize": "400g"
+      },
+      {
+        "id": 19,
+        "title": "Garlic Naan",
+        "ingredients": "White flour, garlic, butter",
+        "price": 4.75,
+        "categories": ["Breads", "Appetizers"],
+        "imageSource": "../../assets/menu_images/garlic_naan.jpg",
+        "portionSize": "200g"
       }
     ]
   },
@@ -253,21 +403,54 @@
         "title": "Smoked Ribs",
         "ingredients": "Pork ribs, BBQ sauce, spices",
         "price": 17.99,
-        "categories": ["BBQ", "Main Course"]
+        "categories": ["BBQ", "Main Course"],
+        "imageSource": "../../assets/menu_images/smoked_ribs.jpg",
+        "portionSize": "400g"
       },
       {
         "id": 24,
         "title": "Grilled Chicken",
         "ingredients": "Chicken breast, BBQ glaze, herbs",
         "price": 14.50,
-        "categories": ["Grilled Chicken", "Main Course"]
+        "categories": ["Grilled Chicken", "Main Course"],
+        "imageSource": "../../assets/menu_images/grilled_chicken.jpg",
+        "portionSize": "350g"
       },
       {
         "id": 25,
         "title": "Cornbread",
         "ingredients": "Cornmeal, butter, sugar",
         "price": 5.25,
-        "categories": ["Sides", "Appetizers"]
+        "categories": ["Sides", "Appetizers"],
+        "imageSource": "../../assets/menu_images/cornbread.jpg",
+        "portionSize": "200g"
+      },
+      {
+        "id": 26,
+        "title": "Quinoa Salad",
+        "ingredients": "Quinoa, mixed vegetables, lemon vinaigrette",
+        "price": 10.99,
+        "categories": ["Salads", "Main Course"],
+        "imageSource": "../../assets/menu_images/quinoa_salad.jpg",
+        "portionSize": "300g"
+      },
+      {
+        "id": 27,
+        "title": "Stuffed Bell Peppers",
+        "ingredients": "Bell peppers, rice, black beans, cheese",
+        "price": 9.50,
+        "categories": ["Main Course"],
+        "imageSource": "../../assets/menu_images/stuffed_bell_peppers.jpg",
+        "portionSize": "350g"
+      },
+      {
+        "id": 28,
+        "title": "Avocado Toast",
+        "ingredients": "Whole-grain bread, avocado, cherry tomatoes",
+        "price": 7.25,
+        "categories": ["Breakfast", "Appetizers"],
+        "imageSource": "../../assets/menu_images/avocado_toast.jpg",
+        "portionSize": "200g"
       }
     ]
   },
@@ -278,7 +461,7 @@
     "imageSource": "../../assets/place_logos/place_logo_009.jpg",
     "freeDelivery": true,
     "minOrder": 20.00,
-    "deliveryFee": "FREE",
+    "deliveryFee": 2.00,
     "deliveryTime": 40,
     "isOpen": true,
     "menu": [
@@ -287,21 +470,27 @@
         "title": "Quinoa Salad",
         "ingredients": "Quinoa, mixed vegetables, lemon vinaigrette",
         "price": 10.99,
-        "categories": ["Salads", "Main Course"]
+        "categories": ["Salads", "Main Course"],
+        "imageSource": "../../assets/menu_images/quinoa_salad.jpg",
+        "portionSize": "300g"
       },
       {
         "id": 27,
         "title": "Stuffed Bell Peppers",
         "ingredients": "Bell peppers, rice, black beans, cheese",
         "price": 9.50,
-        "categories": ["Main Course"]
+        "categories": ["Main Course"],
+        "imageSource": "../../assets/menu_images/stuffed_bell_peppers.jpg",
+        "portionSize": "350g"
       },
       {
         "id": 28,
         "title": "Avocado Toast",
         "ingredients": "Whole-grain bread, avocado, cherry tomatoes",
         "price": 7.25,
-        "categories": ["Breakfast", "Appetizers"]
+        "categories": ["Breakfast", "Appetizers"],
+        "imageSource": "../../assets/menu_images/avocado_toast.jpg",
+        "portionSize": "200g"
       }
     ]
   },
@@ -312,7 +501,7 @@
     "imageSource": "../../assets/place_logos/place_logo_010.jpg",
     "freeDelivery": true,
     "minOrder": 12.00,
-    "deliveryFee": "FREE",
+    "deliveryFee": 1.00,
     "deliveryTime": 25,
     "isOpen": true,
     "menu": [
@@ -321,21 +510,54 @@
         "title": "Pancakes",
         "ingredients": "Buttermilk pancakes, maple syrup",
         "price": 7.99,
-        "categories": ["Breakfast", "Main Course"]
+        "categories": ["Breakfast", "Main Course"],
+        "imageSource": "../../assets/menu_images/pancakes.jpg",
+        "portionSize": "300g"
       },
       {
         "id": 30,
         "title": "Eggs Benedict",
         "ingredients": "English muffin, poached eggs, Canadian bacon, hollandaise sauce",
         "price": 10.50,
-        "categories": ["Breakfast", "Main Course"]
+        "categories": ["Breakfast", "Main Course"],
+        "imageSource": "../../assets/menu_images/eggs_benedict.jpg",
+        "portionSize": "350g"
       },
       {
         "id": 31,
         "title": "Cappuccino",
         "ingredients": "Espresso, steamed milk, froth",
         "price": 4.25,
-        "categories": ["Beverages"]
+        "categories": ["Beverages"],
+        "imageSource": "../../assets/menu_images/cappuccino.jpg",
+        "portionSize": "200g"
+      },
+      {
+        "id": 26,
+        "title": "Quinoa Salad",
+        "ingredients": "Quinoa, mixed vegetables, lemon vinaigrette",
+        "price": 10.99,
+        "categories": ["Salads", "Main Course"],
+        "imageSource": "../../assets/menu_images/quinoa_salad.jpg",
+        "portionSize": "300g"
+      },
+      {
+        "id": 27,
+        "title": "Stuffed Bell Peppers",
+        "ingredients": "Bell peppers, rice, black beans, cheese",
+        "price": 9.50,
+        "categories": ["Main Course"],
+        "imageSource": "../../assets/menu_images/stuffed_bell_peppers.jpg",
+        "portionSize": "350g"
+      },
+      {
+        "id": 28,
+        "title": "Avocado Toast",
+        "ingredients": "Whole-grain bread, avocado, cherry tomatoes",
+        "price": 7.25,
+        "categories": ["Breakfast", "Appetizers"],
+        "imageSource": "../../assets/menu_images/avocado_toast.jpg",
+        "portionSize": "200g"
       }
     ]
   }

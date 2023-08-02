@@ -8,4 +8,6 @@ Item {
     signal filterLocationsByCatgory (string category)
 
     signal filterLocationsByName (string name)
+
+    signal showPlaceDetails(int id)
 }

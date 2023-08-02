@@ -1,5 +1,6 @@
 import QtQuick
 import Felgo
+import QtQml
 import "pages"
 import "models"
 
@@ -19,6 +20,20 @@ Item {
     }
 
     NavigationStack {
+        id: navigationStack
         MainPage {}
+    }
+
+    ComponentBase {
+    }
+
+    Component {
+        id: placeDetailsPage
+        PlaceDetailsPage {}
+    }
+
+    Component {
+        id: menuItemPage
+        MenuItemPage {}
     }
 }

@@ -5,10 +5,7 @@ Item {
 
     property alias dispatcher: logicConnection.target
     property var placesModel
-
-    Client {
-        id: client
-    }
+    property var menuModel
 
     Connections {
         id: logicConnection
@@ -23,6 +20,10 @@ Item {
 
         onFilterLocationsByName: {
             _.filterLocationsByName(name)
+        }
+
+        onShowPlaceDetails: {
+            _.showPlaceDetails(id)
         }
     }
 
@@ -68,6 +69,28 @@ Item {
                     return placeName.includes(query);
                 })
                 placesModel = sortLocationsByOpenCond(filteredLocations)
+            })
+            .catch(function(err) {
+                console.error("FAILED: ", err)
+            })
+        }
+
+        function showPlaceDetails(id){
+            HttpRequest.get(Qt.resolvedUrl("../data/places.json"))
+            .then(function(res){
+                var body =  JSON.parse(res.body)
+                var place = body.find(function(place){
+                    return place.id === id
+                })
+                menuModel = place.menu
+                var propreties = {
+                    placeName: place.name,
+                    logoImageSource: place.imageSource,
+                    minOrder: place.minOrder,
+                    deliveryFee: place.deliveryFee,
+                    deliveryTime: place.deliveryTime
+                }
+                navigationStack.push(placeDetailsPage, propreties)
             })
             .catch(function(err) {
                 console.error("FAILED: ", err)

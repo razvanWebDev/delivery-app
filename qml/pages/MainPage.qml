@@ -2,6 +2,7 @@ import QtQuick
 import Felgo
 import QtQuick.Controls
 import "../components"
+import "../models"
 
 AppPage {
 
@@ -13,7 +14,6 @@ AppPage {
     clip: true
 
     Component.onCompleted: {
-        console.debug("Component.onCompleted")
         logic.getALlLocations()
     }
 
@@ -217,8 +217,7 @@ AppPage {
                         }
                     }
                     onClicked: {
-                        //TO DO -> open place details
-                        console.debug("Place clicked")
+                        logic.showPlaceDetails(model.id)
                     }
                 }
             }
