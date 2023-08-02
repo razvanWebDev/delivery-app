@@ -24,9 +24,6 @@ Item {
         MainPage {}
     }
 
-    ComponentBase {
-    }
-
     Component {
         id: placeDetailsPage
         PlaceDetailsPage {}
